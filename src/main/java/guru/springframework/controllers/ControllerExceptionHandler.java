@@ -3,10 +3,6 @@ package guru.springframework.controllers;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 
-
-/**
- * Created by jt on 7/14/17.
- */
 @Slf4j
 @ControllerAdvice
 public class ControllerExceptionHandler {

@@ -14,9 +14,6 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
 
-/**
- * Created by jt on 6/28/17.
- */
 @Slf4j
 @Controller
 public class IngredientController {
