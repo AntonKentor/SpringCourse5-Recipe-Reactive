@@ -111,6 +111,7 @@ public class IngredientController {
         return "redirect:/recipe/" + recipeId + "/ingredients";
     }
 
+    //Test
     @ModelAttribute("uomList")
     public Flux<UnitOfMeasureCommand> populateUomList(){
         return unitOfMeasureService.listAllUoms();
