@@ -1,7 +1,7 @@
-package guru.springframework.repositories;
+package recipe.reactive.springcourse.repositories;
 
-import guru.springframework.bootstrap.RecipeBootstrap;
-import guru.springframework.domain.UnitOfMeasure;
+import recipe.reactive.springcourse.bootstrap.RecipeBootstrap;
+import recipe.reactive.springcourse.domain.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

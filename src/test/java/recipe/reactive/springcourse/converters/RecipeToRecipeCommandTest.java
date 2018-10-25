@@ -1,9 +1,11 @@
-package guru.springframework.converters;
+package recipe.reactive.springcourse.converters;
 
-import guru.springframework.commands.RecipeCommand;
+import recipe.reactive.springcourse.commands.RecipeCommand;
 import guru.springframework.domain.*;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import recipe.reactive.springcourse.domain.*;
 
 import static org.junit.Assert.*;
 
@@ -89,7 +91,7 @@ public class RecipeToRecipeCommandTest {
         assertEquals(COOK_TIME, command.getCookTime());
         assertEquals(PREP_TIME, command.getPrepTime());
         assertEquals(DESCRIPTION, command.getDescription());
-        assertEquals(DIFFICULTY, command.getDifficulty());
+        Assert.assertEquals(DIFFICULTY, command.getDifficulty());
         assertEquals(DIRECTIONS, command.getDirections());
         assertEquals(SERVINGS, command.getServings());
         assertEquals(SOURCE, command.getSource());

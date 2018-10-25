@@ -1,6 +1,6 @@
-package guru.springframework.repositories.reactive;
+package recipe.reactive.springcourse.repositories.reactive;
 
-import guru.springframework.domain.Recipe;
+import recipe.reactive.springcourse.domain.Recipe;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

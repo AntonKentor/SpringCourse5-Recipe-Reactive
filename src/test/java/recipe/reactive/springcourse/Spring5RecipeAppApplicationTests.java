@@ -1,4 +1,4 @@
-package guru.springframework;
+package recipe.reactive.springcourse;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,7 +1,7 @@
-package guru.springframework.converters;
+package recipe.reactive.springcourse.converters;
 
-import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.domain.UnitOfMeasure;
+import recipe.reactive.springcourse.commands.UnitOfMeasureCommand;
+import recipe.reactive.springcourse.domain.UnitOfMeasure;
 import org.junit.Before;
 import org.junit.Test;
 

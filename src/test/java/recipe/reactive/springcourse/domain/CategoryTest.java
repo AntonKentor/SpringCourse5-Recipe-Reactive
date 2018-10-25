@@ -1,4 +1,4 @@
-package guru.springframework.domain;
+package recipe.reactive.springcourse.domain;
 
 import org.junit.Before;
 import org.junit.Test;

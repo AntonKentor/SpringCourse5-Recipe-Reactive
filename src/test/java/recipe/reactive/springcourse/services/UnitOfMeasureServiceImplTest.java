@@ -1,9 +1,9 @@
-package guru.springframework.services;
+package recipe.reactive.springcourse.services;
 
-import guru.springframework.commands.UnitOfMeasureCommand;
-import guru.springframework.converters.UnitOfMeasureToUnitOfMeasureCommand;
-import guru.springframework.domain.UnitOfMeasure;
-import guru.springframework.repositories.reactive.UnitOfMeasureReactiveRepository;
+import recipe.reactive.springcourse.commands.UnitOfMeasureCommand;
+import recipe.reactive.springcourse.converters.UnitOfMeasureToUnitOfMeasureCommand;
+import recipe.reactive.springcourse.domain.UnitOfMeasure;
+import recipe.reactive.springcourse.repositories.reactive.UnitOfMeasureReactiveRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

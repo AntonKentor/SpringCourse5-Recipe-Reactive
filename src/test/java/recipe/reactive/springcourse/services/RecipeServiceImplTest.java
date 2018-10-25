@@ -1,11 +1,11 @@
-package guru.springframework.services;
+package recipe.reactive.springcourse.services;
 
 
-import guru.springframework.commands.RecipeCommand;
-import guru.springframework.converters.RecipeCommandToRecipe;
-import guru.springframework.converters.RecipeToRecipeCommand;
-import guru.springframework.domain.Recipe;
-import guru.springframework.repositories.reactive.RecipeReactiveRepository;
+import recipe.reactive.springcourse.commands.RecipeCommand;
+import recipe.reactive.springcourse.converters.RecipeCommandToRecipe;
+import recipe.reactive.springcourse.converters.RecipeToRecipeCommand;
+import recipe.reactive.springcourse.domain.Recipe;
+import recipe.reactive.springcourse.repositories.reactive.RecipeReactiveRepository;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
