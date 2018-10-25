@@ -1,7 +1,6 @@
 package recipe.reactive.springcourse.converters;
 
 import recipe.reactive.springcourse.commands.RecipeCommand;
-import guru.springframework.domain.*;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
