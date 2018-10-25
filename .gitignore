@@ -141,3 +141,8 @@ Desktop.ini
 .eslintcache
 /.idea/
 /.gradle/
+/out/
+out/production/classes/generated/
+out/test/classes/generated_tests/
+src/main/java/recipe/
+src/test/java/recipe/
